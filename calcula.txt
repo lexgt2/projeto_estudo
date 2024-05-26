@@ -1,0 +1,39 @@
+def som():
+    n = float(input("Insira o primeiro numero: "))
+    n1 = float(input("Insira o segundo numero: "))
+    print("O Resultado da soma é: ",n+n1)
+
+def sub():
+    n = float(input("Insira o primeiro numero:"))
+    n1 = float(input("Insira o segundo numero:"))
+    print("O resultado da subtracao é: ",n-n1)
+
+def multiplica():
+     n = float(input("Insira o primeiro numero:"))
+     n1 = float(input("Insira o segundo numero:"))
+     print("O resultado da multiplicacao é: ",n*n1)
+
+def divisao():
+    n = float(input("Insira o primeiro numero: "))
+    n1 = float(input("Insira segundo numero:"))
+    print("O resultado da divisao é: ",n/n1)
+
+opcao=1
+
+while opcao:
+    print("0. Sair")
+    print("1. Somar")
+    print("2. Subtrair")
+    print("3. Multiplicação")
+    print("4. Divisão ")
+
+    opcao = int(input("Opção: "))
+
+    if(opcao==1):
+        som()
+    if(opcao==2):
+        sub()
+    if(opcao==3):
+        multiplica()
+    if(opcao==4):
+        divisao()
